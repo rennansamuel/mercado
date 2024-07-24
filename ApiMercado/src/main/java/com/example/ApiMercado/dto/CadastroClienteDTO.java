@@ -1,6 +1,9 @@
 package com.example.ApiMercado.dto;
 
+import lombok.Setter;
+
 public class CadastroClienteDTO {
+
 
     private String CPF;
     private String nome_do_cliente;
@@ -19,7 +22,7 @@ public class CadastroClienteDTO {
         return nome_do_cliente;
     }
 
-    public void setNome_do_clinte(String nome_do_cliente) {
+    public void setNome_do_cliente(String nome_do_cliente) {
         this.nome_do_cliente = nome_do_cliente;
     }
 
